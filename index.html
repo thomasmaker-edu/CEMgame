@@ -241,7 +241,6 @@ ${i}`),b(i)}function $e(n,e=!1){return Qo(Lo(n),An(),Pn(),e)}class Ko extends fe
 
 /* 5. Links e Botões de Ação (Bebas Neue #2AB2A5) */
 #page article a {
-  display: block;
   font-family: 'Bebas Neue', sans-serif;
   color: #2AB2A5 !important; /* Cor azul-piscina/teal indicada na fonte [1] */
   text-decoration: none;
@@ -457,7 +456,7 @@ Mais uma oportunidade! Temos uma Rotina de Pensamento perfeita para este momento
 [if !rotinas_de_pensamento]
 &gt; [[O que é uma rotina de pensamento?]]
 [continue]
-&gt; [[Clique aqui para coletar sua rotina de pensamento! -&gt; Adicionar Rotina &quot;Olhar de Perto&quot;]]</tw-passagedata><tw-passagedata pid="10" name=" Explorar a Complexidade" tags="" position="1200,475" size="100,100">explorar_a_complexidade:true
+&gt; [[Clique aqui para coletar suas rotinas de pensamento! -&gt; Adicionar Rotina &quot;Olhar de Perto&quot;]]</tw-passagedata><tw-passagedata pid="10" name=" Explorar a Complexidade" tags="" position="1200,475" size="100,100">explorar_a_complexidade:true
 --
 {embed passage:&#39;Menu&#39;}
 
@@ -479,7 +478,7 @@ Mais uma oportunidade! Temos uma Rotina de Pensamento perfeita para este momento
 [if !rotinas_de_pensamento]
 &gt; [[O que é uma rotina de pensamento?]]
 [continue]
-&gt; [[Clique aqui para coletar sua rotina de pensamento! -&gt; Adicionar Rotina &quot;Explorar a Complexidade&quot;]]</tw-passagedata><tw-passagedata pid="11" name=" Achar Oportunidades" tags="" position="1325,475" size="100,100">achar_oportunidades:true
+&gt; [[Clique aqui para coletar suas rotinas de pensamento! -&gt; Adicionar Rotina &quot;Explorar a Complexidade&quot;]]</tw-passagedata><tw-passagedata pid="11" name=" Achar Oportunidades" tags="" position="1325,475" size="100,100">achar_oportunidades:true
 --
 {embed passage:&#39;Menu&#39;}
 
@@ -536,8 +535,11 @@ itens:[...itens, rotina_ppc, rotina_ppe, rotina_opp, rotina_je]
 Você adquiriu Rotinas de Pensamento da capacidade Olhar de Perto!.
 
 &lt;a href=&quot;https://drive.google.com/file/d/1uoy9WipxhmI6nVL9XX_aa5X3_A5ryN3u/view?usp=drive_link&quot; target=&quot;_blank&quot;&gt;Acessar: Partes, Propósitos, Complexidades&lt;/a&gt;
+
 &lt;a href=&quot;https://drive.google.com/file/d/1N-wcZu1pjlrwh6PbuxopFmFWJ54P4yof/view?usp=drive_link&quot; target=&quot;_blank&quot;&gt;Acessar: Partes, Perspectivas, Eu&lt;/a&gt;
+
 &lt;a href=&quot;https://drive.google.com/file/d/1nizDUQ1Vm0Aax6jWdfoPl0Ai4S_E4EzX/view?usp=drive_link&quot; target=&quot;_blank&quot;&gt;Acessar: Olhar, Pensar, Perguntar/Imaginar&lt;/a&gt;
+
 &lt;a href=&quot;https://drive.google.com/file/d/1VE5_A3EJWZCuMrHdevUzIKHV26BAtsVI/view?usp=drive_link&quot; target=&quot;_blank&quot;&gt;Acessar: Jogo da Elaboração&lt;/a&gt;
 
 ~~Dica: É possível verificar o que você coletou até agora acessando sua mochila virtual no menu!~~
@@ -552,7 +554,9 @@ itens:[...itens, rotina_ea, rotina_ppi, rotina_psi]
 Você adquiriu Rotinas de Pensamento da capacidade Explorar Complexidades!
 
 &lt;a href=&quot;https://drive.google.com/file/d/1l40DWKBBwASdYfmMqKJzbgraec6tnOmk/view?usp=drive_link&quot; target=&quot;_blank&quot;&gt;Acessar: Eu Achava Que... Agora Eu Acho...&lt;/a&gt;
+
 &lt;a href=&quot;https://drive.google.com/file/d/1inUAl3mH1NSaLOmSJL9MNDGZICiAFzlj/view?usp=drive_link&quot; target=&quot;_blank&quot;&gt;Acessar: Partes, Pessoas, Interações&lt;/a&gt;
+
 &lt;a href=&quot;https://drive.google.com/file/d/1Lt2hoGHUPjMlAHKohAqbzCndTYCiUYHL/view?usp=drive_link&quot; target=&quot;_blank&quot;&gt;Acessar: Pense, Sinta, Importe-se&lt;/a&gt;
 
 
@@ -619,7 +623,7 @@ Pronto?
 
 [Javascript]
 for (i=0; i&lt;itens.length;i++) {
-	write(&quot;&lt;p&gt;&lt;a href=\&quot;&quot;+itens[i][1]+&quot;\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt;&quot;+&quot;📃&quot;+itens[i][0]+&quot;&lt;/a&gt;&lt;/p&gt;&quot;);
+	write(&quot;&lt;a href=\&quot;&quot;+itens[i][1]+&quot;\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt;&quot;+&quot;📃&quot;+itens[i][0]+&quot; &lt;/a&gt;&quot;);
 }
 [Continue]</tw-passagedata><tw-passagedata pid="22" name="Delimitar objetivo" tags="" position="1450,350" size="100,100">Ótimo! 
 
